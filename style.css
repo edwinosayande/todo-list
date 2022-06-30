@@ -1,0 +1,159 @@
+
+
+body {
+    font-family: sans-serif;
+    background:white;
+    color: white;
+}
+
+.section-center {
+    border-radius: 20px;
+    box-shadow: 12px 12px gray;
+    transition: width 2s;
+    position: relative;
+    top: 50px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    background: rgba(73, 166, 233, 0.5);
+}
+
+img {
+    width: 7px;
+}
+
+.edit-btn {
+    position: relative;
+    bottom: 3px;
+    background: rgb(3, 108, 3);
+    font-size: 7px;
+    color: #fff;
+    font-family: sans-serif;
+    width: 25px;
+}
+.alert {
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.alert-danger {
+    color: #721c24;
+    background: red;
+}
+
+
+.alert-success {
+    color: #fff;
+    background: rgb(65, 100, 65);
+}
+
+.grocery-form h3 {
+    color: #666;
+    margin-bottom: 80px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grocery {
+    padding: 10px;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: rgb(218, 146, 158);
+    font-size: 20px;
+    flex: 1 0 auto;
+    color: rgb(81, 81, 251);
+}
+
+#grocery::placeholder {
+    font-family: sans-serif;
+    color: rgb(81, 81, 251);
+}
+
+.submit-btn {
+    background: gray;
+    border-color: white;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: rgb(218, 146, 158);
+    color: rgb(80, 75, 75);
+}
+
+.grocery-container {
+    color: rgb(81, 81, 251);
+    font-size: 20px;
+    flex: 1 0 auto;
+    margin-top: 2px;
+    transition: width 2s;
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+}
+
+.grocery-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: width 2s;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+.clear-btn {
+    position: relative;
+    left: 45%;
+    justify-content: center;
+    background: gray;
+    border-color: white;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background: rgb(168, 9, 9);
+    color: rgb(80, 75, 75);
+}
